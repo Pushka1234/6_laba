@@ -1,0 +1,106 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = #1052#1077#1090#1086#1076' '#1069#1081#1083#1077#1088#1072
+  ClientHeight = 540
+  ClientWidth = 787
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 144
+    Top = 11
+    Width = 208
+    Height = 16
+    Caption = #1050#1086#1086#1088#1076#1080#1085#1072#1090#1099' '#1085#1072#1095#1072#1083#1100#1085#1086#1081' '#1090#1086#1095#1082#1080': X1='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 536
+    Top = 11
+    Width = 24
+    Height = 16
+    Caption = 'X2='
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -13
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    ParentFont = False
+  end
+  object Button1: TButton
+    Left = 8
+    Top = 8
+    Width = 81
+    Height = 57
+    Caption = #1055#1091#1089#1082
+    TabOrder = 0
+    OnClick = Button1Click
+  end
+  object Edit1: TEdit
+    Left = 358
+    Top = 8
+    Width = 43
+    Height = 21
+    TabOrder = 1
+    Text = '1'
+  end
+  object Edit2: TEdit
+    Left = 576
+    Top = 8
+    Width = 33
+    Height = 21
+    TabOrder = 2
+    Text = '1'
+  end
+  object Chart1: TChart
+    Left = 128
+    Top = 128
+    Width = 553
+    Height = 330
+    Title.Text.Strings = (
+      #1043#1088#1072#1092#1080#1082)
+    View3D = False
+    TabOrder = 3
+    DefaultCanvas = 'TGDIPlusCanvas'
+    ColorPaletteIndex = 13
+    object Series1: TPointSeries
+      ClickableLine = False
+      Pointer.InflateMargins = True
+      Pointer.Style = psCross
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+    object Series2: TLineSeries
+      Brush.BackColor = clDefault
+      Pointer.InflateMargins = True
+      Pointer.Style = psRectangle
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+    object Series3: TLineSeries
+      Brush.BackColor = clDefault
+      Pointer.InflateMargins = True
+      Pointer.Style = psRectangle
+      XValues.Name = 'X'
+      XValues.Order = loAscending
+      YValues.Name = 'Y'
+      YValues.Order = loNone
+    end
+  end
+end
